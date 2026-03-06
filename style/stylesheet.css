@@ -1,47 +1,60 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #e38383f1;
 }
 h1{
-    color: #333;
+    color:#9d3119;
     text-align: center;
 }
 h2{
-    color: #pink;
+    color:#9d3119;
 }
-img {border:2px solid black;
-    padding:10px;
+h3{
+    color:#9d3119;
 }
-
-a:link{
-    color:blue;
+ul{
+    color:#952006;
 }
-a:link{
-    color:blue;
+img {border: 8px solid #edcaa3;
+    margin: 10px;
+    padding: 8px;
 }
 a:hover{
-    color:yellow;
+    color:#edcaa3;
     text-decoration: underline;
 }
 #container {
     width:80%;
     margin: 0 auto;
 }
-.error {
-
-
+.image-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 16px;
 }
-
+hr{
+    color: #edcaa3;
+}
 table {
-        border: 1px solid #000;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #d27474;
+        border: 3px solid #834c4c;
         border-collapse: collapse;
         margin-bottom: 40px;
       }
     thead{
-        background-color: #f5f5f5;
+        font-size: large;
+        background-color: #b65050;
+        color:#edcaa3
         }
-caption
+    td{
+        text-align: center;
+    }
 
 td {
     border: 1px solid #000;
     padding: 8px;
     }
+caption {
+    font-size: large;
+}
